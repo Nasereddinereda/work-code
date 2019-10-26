@@ -1,0 +1,66 @@
+/* SM  */
+@media only screen and (max-width: 767px) {
+  .sm-border-hidden {
+    border: none !important ;
+  }
+  .h-80-sc {
+    height: 50vh;
+  }
+
+  .anim-3-s1 {
+    font-size: 20px;
+    animation: anim-3-s1 2s forwards 1;
+  }
+
+  @keyframes anim-3-s1 {
+    to {
+      font-size: 20px;
+    }
+  }
+
+  .m-16 {
+    margin: 1rem !important ;
+  }
+  .text-md {
+    font-size: 14px !important ;
+  }
+  .mr-1-pm {
+    margin-right: 5px;
+  }
+  .w-30 {
+    width: 95%;
+  }
+  .mb-mob {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  .h-80-sc {
+    height: 70vh;
+  }
+}
+/* MD  */
+
+/* LG  */
+
+/* HG  */
+
+@media only screen and (min-height: 900px) {
+  .h-80-sc {
+    height: 50vh;
+  }
+  .margin-bottom {
+    margin-bottom: 3vh;
+  }
+  .anim-2-s1 {
+    transform: translateY(0vh);
+    animation: anim-2-s1 1s forwards 1;
+  }
+
+  @keyframes anim-2-s1 {
+    to {
+      transform: translateY(0);
+    }
+  }
+}
